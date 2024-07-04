@@ -21,7 +21,6 @@ I got this image from the Canva AI picture generator prompt, I chose this image 
     > Quran Surah Az-Zariyat 49. 
     
     For example, for every hardship comes ease.
-   
     > "So, surely with hardship comes ease."  
     > Quran Surah Al-Insyirah 5.
 4. **Color Blue**  
