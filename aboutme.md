@@ -11,18 +11,19 @@ Heya !! My name is Gamma Althafiansyah Rosyidin and I aspire to be a great data 
   <img src="https://github.com/GammaAR/GammaAR.github.io/assets/68648095/b553958f-a8a7-4343-a58a-6e6fad7e0d53" width=500 height=500>
 </p>
 
-### I got this image from the Canva AI picture generator prompt, I chose this image for a reason
+I got this image from the Canva AI picture generator prompt, I chose this image for a few reasons:
+
 1. **The Cat**  
-    represents boundless curiosity and is also my favorite animal.
+    represents boundless curiosity and is also my favorite animal. This animal will become my main attitude towards life, _always curious_.
 2. **The Coins**  
-    Means everything in this world always has pairs just like a coin has two sides  
+    Means everything in this world always has pairs just like a coin has two sides,  
     > "And We created pairs of all things so perhaps you would be mindful."  
-    > Quran Surah Az-Zariyat 49.  
+    > Quran Surah Az-Zariyat 49. 
     
     For example, for every hardship comes ease.
    
     > "So, surely with hardship comes ease."  
     > Quran Surah Al-Insyirah 5.
 4. **Color Blue**  
-    represent knowledge.
+    represent knowledge. Therefore, as an aspiring professional data analyst, I have to strive to become the best version of myself by forever studying.
 
