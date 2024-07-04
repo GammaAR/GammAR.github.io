@@ -21,6 +21,9 @@ author: Gamma Althafiansyah rosyidin
 
 navbar-links:
   About Me: "aboutme"
+  Projects:
+    - Data Analyst: "dataanalyst"
+    - Writings: "https://medium.com/@gammarosyidin"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
@@ -56,7 +59,7 @@ social-network-links:
 # twitter: -
 # patreon: -
 # youtube: "@daattali"
-  whatsapp: 081395330630
+  whatsapp: 6281395330630
   medium: gammarosyidin
 #  reddit: yourname
   linkedin: gamma-rosyidin
