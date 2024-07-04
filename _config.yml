@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: Gamma's Blog Page
+title: Gamma's Knowledge Repository
 
 # Your name to show in the footer
 author: Gamma Althafiansyah rosyidin
@@ -167,7 +167,7 @@ footer-hover-col: "#0085A1"
 #################################
 
 # Fill in your Google Analytics tag ID (or "Measurement ID") to track your website usage
-#gtag: "G-XXXXXXXXXX"
+gtag: "G-5VENKGGK4R"
 
 # Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
 #cloudflare_analytics: ""
