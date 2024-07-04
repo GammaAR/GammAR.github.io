@@ -20,14 +20,13 @@ author: Gamma Althafiansyah rosyidin
 ###############################################
 
 navbar-links:
+  Back to Projects: "https://gammaar.github.io/"
   About Me: "aboutme"
-  Projects:
-    - Data Analyst: "dataanalyst"
-    - Writings: "https://medium.com/@gammarosyidin"
+  CV: "cv"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  CV: "cv"
+    - Canva: "https://www.canva.com/"
+  
 
 ################
 # --- Logo --- #
@@ -135,7 +134,7 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#FFFFFF"
+page-col: "#ACACAC"
 text-col: "#404040"
 link-col: "#008AFF"
 hover-col: "#0085A1"
