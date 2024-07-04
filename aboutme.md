@@ -6,7 +6,7 @@ subtitle: Who am I?
 
 Heya !! My name is Gamma Althafiansyah Rosyidin and I aspire to be a great data analyst (you better believe it!!)
 
-## My Avatar
+## My Logo
 <p align="center">
   <img src="https://github.com/GammaAR/GammaAR.github.io/assets/68648095/b553958f-a8a7-4343-a58a-6e6fad7e0d53" width=500 height=500>
 </p>
