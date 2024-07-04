@@ -15,7 +15,7 @@ I got this image from the Canva AI picture generator prompt, I chose this image 
 
 1. **The Cat**  
     represents boundless curiosity and is also my favorite animal. This animal will become my main attitude towards life, _always curious_.
-2. **The Coins**  
+2. **Coins**  
     Means everything in this world always has pairs just like a coin has two sides,  
     > "And We created pairs of all things so perhaps you would be mindful."  
     > Quran Surah Az-Zariyat 49. 
