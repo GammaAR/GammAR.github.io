@@ -8,7 +8,7 @@ Heya !! My name is Gamma Althafiansyah Rosyidin and I aspire to be a great data 
 
 ## My Logo
 <p align="center">
-  <img src="https://github.com/GammaAR/GammaAR.github.io/assets/68648095/b553958f-a8a7-4343-a58a-6e6fad7e0d53" width=500 height=500>
+  <img src="https://github.com/GammaAR/GammaAR.github.io/assets/68648095/b553958f-a8a7-4343-a58a-6e6fad7e0d53" width=500 height=500 />
 </p>
 
 I got this image from the **Canva AI picture generator prompt**, I chose this image for a few reasons:
