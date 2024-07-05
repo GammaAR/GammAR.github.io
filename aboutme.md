@@ -1,28 +1,33 @@
 ---
 layout: page
-title: About me
-subtitle: Who am I?
+title: Gamma Althafiansyah Rosyidin
+subtitle: Aspiring Data Analyst
 ---
 
-Heya !! My name is Gamma Althafiansyah Rosyidin and I aspire to be a great data analyst (you better believe it!!)
+Hello! My name is Gamma Althafiansyah Rosyidin, and I aspire to be a great data analyst.
 
-## My Logo
+# My Logo
 <p align="center">
-  <img src="https://github.com/GammaAR/GammaAR.github.io/assets/68648095/b553958f-a8a7-4343-a58a-6e6fad7e0d53" width=500 height=500 />
+  <img src="https://gammaar.github.io/assets/img/New%20Cat.png" alt="New Cat" width="500" height="500">
 </p>
+This image was generated using the Canva AI picture generator prompt. I chose this image for several reasons:
 
-I got this image from the **Canva AI picture generator prompt**, I chose this image for a few reasons:
+## The Cat
+Cats represent boundless curiosity, which mirrors my own inquisitive nature. They are also my favorite animal. This symbolizes my approach to life—always curious.
 
-1. **The Cat**  
-    represents boundless curiosity and is also my favorite animal. This animal will become my main attitude towards life, _always curious_.
-2. **Coins**  
-    Means everything in this world always has pairs just like a coin has two sides,  
-    > "And We created pairs of all things so perhaps you would be mindful."  
-    > Quran Surah Az-Zariyat 49. 
-    
-    For example, for every hardship comes ease.
-    > "So, surely with hardship comes ease."  
-    > Quran Surah Al-Insyirah 5.
-4. **Color Blue**  
-    represent knowledge. Therefore, as an aspiring professional data analyst, I have to strive to become the best version of myself by forever studying.
+## Blue Eyes
+The blue eyes symbolize knowledge. As an aspiring data analyst, I am committed to continuous learning and striving to be the best version of myself.
+
+## White Fur
+The white fur signifies simplicity, optimism, and honesty. These qualities are fundamental to both my personal and professional life:
+
+**Simplicity**: I believe in keeping things clear and straightforward. In data analysis, this means creating understandable and actionable insights.  
+**Optimism**: I maintain a positive outlook, confident that challenges can be overcome with effort and perseverance. This mindset drives my problem-solving approach.  
+**Honesty**: Integrity is essential in all aspects of life. As an analyst, it means providing accurate and truthful data interpretations. As a person, it means living authentically and transparently.  
+
+I believe that every problem always has its solution, so be optimistic and face hardship with a big heart.  
+These values resonate with my faith, as reflected in the Quranic verse:
+>"So, surely with hardship comes ease."  
+>Quran Surah Al-Insyirah 5
+
 
