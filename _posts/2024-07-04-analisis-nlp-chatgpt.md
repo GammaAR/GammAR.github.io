@@ -26,7 +26,7 @@ In this blog, I will try to use a set of data from [kaggle](https://www.kaggle.c
 
 ### Data Cleaning 
 The data obtained must be cleaned from missing data, incorrect data type, and free from duplicates. This optimization ensures the data will be free from bias and will reduce memory usage. We will use **sentiment analysis libraries** such as _TextBlob_ and _VADER (Valence Aware Dictionary and sEntiment Reasoner)_ which we We will then try to compare both polarity results (with VADER, we don't need to remove emojis, numbers, or even lemmatize the text). With TextBlob however, We are going to remove any numbers and use the _regex_ library to also [remove emojis](https://medium.com/swlh/analyzing-product-reviews-with-natural-language-processing-toolkit-nltk-b05ad87bad00) to reduce noise and increase model performance by focusing on the relevant feature which is the text itself since it cannot specifically handle emojis.  
-Below is how we can 
+Below is how we can remove the emojis,
 ~~~
 def remove_emojis(text):
     emoji_pattern = re.compile(
@@ -95,7 +95,7 @@ nlp = spacy.load('en_core_web_sm',disable=['parser', 'ner'])
 df['lemmatized'] = df['cleaned'].apply(lambda x: ' '.join([token.lemma_ for token in list(nlp(x)) if (token.is_stop==False)]))
 ~~~
 
-This one is how we use VADER library.
+This one is how we use VADER library,
 ~~~
 import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
