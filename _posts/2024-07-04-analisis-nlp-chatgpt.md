@@ -38,6 +38,9 @@ def remove_emojis(text):
         u"\U0001F1E0-\U0001F1FF"  # flags (iOS)
         "]+", flags=re.UNICODE)
     return emoji_pattern.sub('', text)
+
+# Apply the emoji removal function to the 'content' column
+df['cleaned'] = df['content'].apply(remove_emojis)
 ~~~
 Regex will also be used for [contraction transformations](https://www.analyticsvidhya.com/blog/2020/04/beginners-guide-exploratory-data-analysis-text-data/) which involve converting contracted forms of words (e.g., "ain't," "'s," "aren't") into their full forms (e.g., "are not," "is," "are not").
 
@@ -85,6 +88,9 @@ def expand_contractions(text,contractions_dict=contractions_dict):
   def replace(match):
     return contractions_dict[match.group(0)]
   return contractions_re.sub(replace, text)
+
+# Expanding Contractions in the reviews
+df['cleaned']=df['cleaned'].apply(expand_contractions)
 ~~~
 
 Then, we will use the _stacy_ library to eliminate any stopwords by lemmatization of the cleaned data.
