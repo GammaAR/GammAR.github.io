@@ -25,23 +25,8 @@ Natural language processing (NLP) is a subfield of computer science and artifici
 In this blog, I will try to use a set of data from [kaggle](https://www.kaggle.com/datasets/ashishkumarak/chatgpt-reviews-daily-updated) to analyze its sentiment component from people's reviews. It involves several steps:
 
 ### Data Cleaning 
-The data obtained must be cleaned from missing data, incorrect data type, and free from duplicates. This optimization ensures the data will be free from bias and will reduce memory usage. We will use **sentiment analysis libraries** such as _TextBlob_ and _VADER (Valence Aware Dictionary and sEntiment Reasoner)_ which we We will then try to compare both polarity results (with VADER, we don't need to remove emojis, numbers, or even lemmatize the text). With TextBlob however, We are going to remove any numbers and use the _regex_ library to also [remove emojis](https://medium.com/swlh/analyzing-product-reviews-with-natural-language-processing-toolkit-nltk-b05ad87bad00) to reduce noise and increase model performance by focusing on the relevant feature which is the text itself since it cannot specifically handle emojis.  
-Below is how we can remove the emojis,
-~~~
-def remove_emojis(text):
-    emoji_pattern = re.compile(
-        "["
-        u"\U0001F600-\U0001F64F"  # emoticons
-        u"\u2000-\u3300"
-        u"\U0001F300-\U0001F5FF"  # symbols & pictographs
-        u"\U0001F680-\U0001F6FF"  # transport & map symbols
-        u"\U0001F1E0-\U0001F1FF"  # flags (iOS)
-        "]+", flags=re.UNICODE)
-    return emoji_pattern.sub('', text)
+The data obtained must be cleaned from missing data, and incorrect data type, and free from duplicates. This optimization ensures the data will be free from bias and will reduce memory usage. We will use **sentiment analysis libraries** such as _TextBlob_ and _VADER (Valence Aware Dictionary and sEntiment Reasoner)_, in this case, we will try to focus on using VADER (with VADER, we don't need to remove emojis or numbers). With TextBlob however, we need to remove any numbers and use the _regex_ library to also [remove emojis](https://medium.com/swlh/analyzing-product-reviews-with-natural-language-processing-toolkit-nltk-b05ad87bad00) to reduce noise and increase model performance by focusing on the relevant feature which is the text itself since it cannot specifically handle emojis.  
 
-# Apply the emoji removal function to the 'content' column
-df['cleaned'] = df['content'].apply(remove_emojis)
-~~~
 Regex will also be used for [contraction transformations](https://www.analyticsvidhya.com/blog/2020/04/beginners-guide-exploratory-data-analysis-text-data/) which involve converting contracted forms of words (e.g., "ain't," "'s," "aren't") into their full forms (e.g., "are not," "is," "are not").
 
 ~~~
@@ -90,29 +75,32 @@ def expand_contractions(text,contractions_dict=contractions_dict):
   return contractions_re.sub(replace, text)
 
 # Expanding Contractions in the reviews
-df['cleaned']=df['cleaned'].apply(expand_contractions)
+df['cleaned_min']=df['cleaned_min'].apply(expand_contractions)
 ~~~
 
-Then, we will use the _stacy_ library to eliminate any stopwords by lemmatization of the cleaned data.
-~~~
-import spacy
-import en_core_web_sm
-nlp = spacy.load('en_core_web_sm',disable=['parser', 'ner'])
-df['lemmatized'] = df['cleaned'].apply(lambda x: ' '.join([token.lemma_ for token in list(nlp(x)) if (token.is_stop==False)]))
-~~~
-
-This one is how we use VADER library,
+After cleaned, we can use VADER library as shown below,
 ~~~
 import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
+
 analyzer = SentimentIntensityAnalyzer()
-df['polarity_vader'] = df['content'].apply(lambda x: analyzer.polarity_scores(x)['compound'])
+df['polarity_vader'] = df['cleaned_min'].apply(lambda x: analyzer.polarity_scores(x)['compound'])
+
+df['polarity_vader']
 ~~~
 
-The benefits VADER has over TextBlob is that in case the reviews only have emojis, VADER can handle and score the polarity properly, it is also suitable for social media comment analysis.
+The benefits VADER has over TextBlob is that in case the reviews only have emojis, VADER can handle and score the polarity properly, it is also suitable for social media comment analysis.  
+Then we save the data obtained in xlsx format.
+~~~
+df.to_excel("df_clean_new.xlsx", index=False)
+~~~
 
 ### Sentiment Data Analysis
 Finally, the clean data obtained will be analyzed using Tableau Public for great data visualization.
+
+#### Reviews Count
+
+![Image 1](https://github.com/GammaAR/GammaAR.github.io/blob/5246a247290eeb15f1cf08f290e28b00bcac7d88/assets/img/chatgpt/Reviews%20Count%20ChatGPT.png)
 
 
 
