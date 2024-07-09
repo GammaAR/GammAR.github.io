@@ -99,10 +99,11 @@ df.to_excel("df_clean_new.xlsx", index=False)
 Finally, the clean data obtained will be analyzed using Tableau Public for great data visualization.
 
 #### Reviews Count
+<p align="center">
+  <img src="https://raw.githubusercontent.com/GammaAR/GammaAR.github.io/master/assets/img/chatgpt/Reviews%20Count%20ChatGPT.png" alt="New Cat" width="900" height="500">
+</p>
 
-![Image 1](https://github.com/GammaAR/GammaAR.github.io/blob/5246a247290eeb15f1cf08f290e28b00bcac7d88/assets/img/chatgpt/Reviews%20Count%20ChatGPT.png)
-
-
+If we see the graph above,
 
 
 
