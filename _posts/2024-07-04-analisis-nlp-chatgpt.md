@@ -103,7 +103,7 @@ Finally, the clean data obtained will be analyzed using Tableau Public for great
   <img src="https://raw.githubusercontent.com/GammaAR/GammaAR.github.io/master/assets/img/chatgpt/Reviews%20Count%20ChatGPT.png" alt="New Cat" width="900" height="500">
 </p>
 
-If we see the graph above,
+If we put ourselves in the developer's shoes, we usually want the product we developed to be increasingly popular daily. To do that, we need to look at the amount of product being used per day, or month, or year, in this case we will look into the amount of reviews each day from 23 June 2023 until 24 May 2024. In those time ranges appeared 3 peaks which carried the most important data, people's feedback and reviews.
 
 
 
