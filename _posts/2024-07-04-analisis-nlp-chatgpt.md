@@ -132,5 +132,14 @@ However, if we only talks about the newest feature only, it won't explain how Ch
 >Update 3: Sky's voice was slightly tweaked. But I prefer the older voice to the new one. The old one was neutral without sounding robotic. The new voice is a little expressive, but it sometimes it doesn't fit the response, especially if the response is a horror story i asked chatgpt to write. Overall, good App experience so far. The UI still needs some sort of way to visually distinguish between prompts and replies. Right now, everything looks flat with no visual differentiation.
 
 ## Next Business Strategy
+From the information provided, there are a few strategies that can be implemented by the company to make the application even more successful.
 
+### 1. User Expectations and Updates
+Peaks in reviews around major updates indicate that users are highly engaged when new features are announced. This suggests that clear communication and managing expectations around new features are crucial.
+
+### 2. Feature Announcements 
+The increase in reviews in May, linked to the announcement of GPT-4 Omni, indicates that users are very responsive to new, innovative features. This suggests that regularly introducing significant improvements can keep users engaged and attract new users. 
+
+### 3. Focus on Connecting with Big Names
+The same can be said from the peak reviews in March, OpenAI connection to big companies such as Apple has leave major impact on the loyal Apple user and other people who basically never try to use ChatGPT App, thi approach can ensure the company is widely known and more people try ChatGPT.
 
