@@ -135,11 +135,11 @@ However, if we only talks about the newest feature only, it won't explain how Ch
 From the information provided, there are a few strategies that can be implemented by the company to make the application even more successful.
 
 ### 1. User Expectations and Updates
-Peaks in reviews around major updates indicate that users are highly engaged when new features are announced. This suggests that clear communication and managing expectations around new features are crucial.
+Peaks in reviews around major updates indicate that users are highly engaged when new features are announced. This suggests that clear communication and managing expectations around new features are crucial. This also can be done by keeping the development and release of new features on a consistent schedule to maintain user interest and engagement. 
 
 ### 2. Feature Announcements 
-The increase in reviews in May, linked to the announcement of GPT-4 Omni, indicates that users are very responsive to new, innovative features. This suggests that regularly introducing significant improvements can keep users engaged and attract new users. 
+The increase in reviews in May, linked to the announcement of GPT-4 Omni, indicates that users are very responsive to new, innovative features. This suggests that regularly introducing significant improvements can keep users engaged and attract new users. This can be done by ensuring the users always well-informed about the future updates and how to address any issues they might encounter.
 
 ### 3. Focus on Connecting with Big Names
-The same can be said from the peak reviews in March, OpenAI connection to big companies such as Apple has leave major impact on the loyal Apple user and other people who basically never try to use ChatGPT App, thi approach can ensure the company is widely known and more people try ChatGPT.
+The same can be said from the peak reviews in March, OpenAI connection to big companies such as Apple has leave major impact on the loyal Apple user and other people who basically never try to use ChatGPT App, this approach can ensure the company is widely known and more people will try to use ChatGPT.
 
