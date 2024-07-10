@@ -141,5 +141,5 @@ Peaks in reviews around major updates indicate that users are highly engaged whe
 The increase in reviews in May, linked to the announcement of GPT-4 Omni, indicates that users are very responsive to new, innovative features. This suggests that regularly introducing significant improvements can keep users engaged and attract new users. This can be done by ensuring the users always well-informed about the future updates and how to address any issues they might encounter.
 
 ### 3. Focus on Connecting with Big Names
-The same can be said from the peak reviews in March, OpenAI connection to big companies such as Apple has leave major impact on the loyal Apple user and other people who basically never try to use ChatGPT App, this approach can ensure the company is widely known and more people will try to use ChatGPT.
+The same can be said from the peak reviews in March, OpenAI connection to big companies such as Apple has leave major impact on other people who basically never try to use ChatGPT App, this approach can ensure the company is widely known and more people will try to use ChatGPT. This can be done by doing more collaboration with big companies.
 
