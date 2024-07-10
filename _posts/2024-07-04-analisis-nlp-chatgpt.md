@@ -22,7 +22,7 @@ This is the latest version and a better version of GPT-4. It has the same intell
 
 ## Natural Language Processing (NLP) Analysis
 Natural language processing (NLP) is a subfield of computer science and artificial intelligence (AI) that uses machine learning to enable computers to understand and communicate with human language.  
-In this blog, I will try to use a set of data from [kaggle](https://www.kaggle.com/datasets/ashishkumarak/chatgpt-reviews-daily-updated) to analyze its sentiment component from people's reviews. It involves several steps:
+In this blog, I will try to use a set of data from [kaggle](https://www.kaggle.com/datasets/ashishkumarak/chatgpt-reviews-daily-updated) to analyze its sentiment component from people's reviews called polarity (basically a standard to determine whether a comment has negative or positive meaning). It involves several steps:
 
 ### Data Cleaning 
 The data obtained must be cleaned from missing data, and incorrect data type, and free from duplicates. This optimization ensures the data will be free from bias and will reduce memory usage. We will use **sentiment analysis libraries** such as _TextBlob_ and _VADER (Valence Aware Dictionary and sEntiment Reasoner)_, in this case, we will try to focus on using VADER (with VADER, we don't need to remove emojis or numbers). With TextBlob however, we need to remove any numbers and use the _regex_ library to also [remove emojis](https://medium.com/swlh/analyzing-product-reviews-with-natural-language-processing-toolkit-nltk-b05ad87bad00) to reduce noise and increase model performance by focusing on the relevant feature which is the text itself since it cannot specifically handle emojis.  
@@ -103,7 +103,34 @@ Finally, the clean data obtained will be analyzed using Tableau Public for great
   <img src="https://raw.githubusercontent.com/GammaAR/GammaAR.github.io/master/assets/img/chatgpt/Reviews%20Count%20ChatGPT.png" alt="New Cat" width="900" height="500">
 </p>
 
-If we put ourselves in the developer's shoes, we usually want the product we developed to be increasingly popular daily. To do that, we need to look at the amount of product being used per day, or month, or year, in this case we will look into the amount of reviews each day from 23 June 2023 until 24 May 2024. In those time ranges appeared 3 peaks which carried the most important data, people's feedback and reviews.
+If we put ourselves in the developer's shoes, we usually want the product we developed to become increasingly popular daily. To achieve this, we need to monitor the usage of the product daily, monthly, or yearly. In this case, we will examine the number of reviews each day from June 23, 2023, to May 24, 2024. During this period, three peaks appeared (on November 23, 2023, March 26, 2024, and May 17, 2024), which carried the most important data: people's feedback and reviews. We will analyze the time from the foot of the peak on both sides:
 
+#### 21 November 2023 - 27 November 2023  
+In this time range, the comments with a positive polarity and the most thumbs-up were mainly excited about the new voice chat mode. The [update](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) itself happened on 21 November 2023 which can be interpreted as the probable cause of the first peak in reviews count. 
+
+>The voice mode is truly revolutionary. Having a conversation with AI without having to press any buttons or wait for much delay is amazing. I can put my phone in my pocket and use my head phones and have a helpful, intelligent buddy at all times. It is not like Alexa, I can speak totally normally. My lack of a star is because it doesn't have any banter (like PI) and doesn't reflect on much of what it is saying, so that comes across as a bit cold. This is a perfect for random queries though!  
+
+This new mode comes with the benefit of letting people ask the chatGPT effortlessly and more easily. However, the big update also comes with a problem, which is bugs. This can be explained by the negative polarity review with the most thumbs-up below,
+
+>Not good. Once you change to voice mode, the menus disappear, so there is then no way to change it back to keyboard mode, or change any settings. You're stuck with voice and can't change anything. Another problem, you can't use voice to stop the app. The phone continues listening to you so you need to physically unlock your phone and shut down the app. If these two problems are fixed I'll change my review to 5 stars.
+
+#### 19 March 2024 - 6 April 2024
+The second peak happened between 19 March 2024 and 6 April 2024, if we only look at the top reviews provided, we can't see much information as the review itself only talks about how good it is,
+>absolutely a terrific app I practically can't live without it anymore. the improvements that they've made so far so Great that I'm going to get the premium version for the $20 a month just to support the creators because of how good even the free option are. only thing is unfortunately certain features on the web app from opening the website on a mobile browser or still unavailable in the application, notably the ability to edit prior statements by the user, as well as switch between responses.
+
+But if we look at the news story, there is one news that is very intriguing and can be a clue to what happened, its probably because of the talks between Apple and Google Gemini and OpenAI from multiple big news sources, [Bloomberg](https://www.bloomberg.com/news/articles/2024-03-18/apple-in-talks-to-license-google-gemini-for-iphone-ios-18-generative-ai-tools), [New York Times](https://www.nytimes.com/2024/03/19/technology/apple-google-ai-iphone.html), and [CNN](https://edition.cnn.com/2024/03/18/tech/apple-ai-google-gemini/index.html). The most probable explanation is, that it appears the talk has made the ChatGPT name more widely known, proven by the reviews mainly consisting of their appreciation of the application generally, but not from their newest feature. The same content was also proven from the negative polarity reviews with the most thumbs-up.
+
+>I'm deeply disappointed with the ChatGPT app's performance. It consistently fails to follow even the simplest of instructions, making it incredibly frustrating to use. Despite clear and explicit requests, the responses provided are often irrelevant and off-topic. It's evident that the app struggles to comprehend basic commands and lacks the ability to adapt appropriately. As a user, it's incredibly frustrating to encounter such limitations, especially when seeking assistance or guidance.
+
+#### 12 May 2024 - 24 May 2024
+The last peak appeared on 17 May 2024, in this time range, OpenAI also released [the version GPT-4o](https://help.openai.com/en/articles/6825453-chatgpt-release-notes), yet the positive comment with the most thumbs-up talks about how the developer added latex rendering which is more of a feature update than a newest version update. 
+
+>Edited my review: thank you for adding latex rendering in the app!
+
+However, if we only talks about the newest feature only, it won't explain how ChatGPT able to reached a highest number of reviews peak at 2024. The only explanation is that the hype of GPT-4o combined with the good feature update heavily affected the number. Also, negative reviews with most thumbs-up didn't talk about the newest version, more about the newest voice update.
+
+>Update 3: Sky's voice was slightly tweaked. But I prefer the older voice to the new one. The old one was neutral without sounding robotic. The new voice is a little expressive, but it sometimes it doesn't fit the response, especially if the response is a horror story i asked chatgpt to write. Overall, good App experience so far. The UI still needs some sort of way to visually distinguish between prompts and replies. Right now, everything looks flat with no visual differentiation.
+
+## Next Business Strategy
 
 
